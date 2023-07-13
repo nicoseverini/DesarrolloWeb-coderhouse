@@ -80,7 +80,7 @@ nav {
     background-color: white;
 }
 
-main {
+.mainindex {
     width: 100%;
     height: auto;
 }
@@ -397,4 +397,194 @@ footer {
     .section-one__button h3{
         font-size: 15px;
     }
+
+    .section-two__box1 p {
+        font-size: 17px ;
+    }
+}
+
+/*Travels.html*/ 
+
+
+.maintravel{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+.main__text{
+    text-align: center;
+}
+
+.main__text h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main__text p{
+    margin: 20px 20%;
+}
+
+.maintravel__options{
+    width: auto;
+    height: auto;
+}
+
+.white{
+    color: white;
+}
+
+.container{
+    min-width: 100%;
+}
+
+.column1__img a:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+
+}
+
+.column1__img img{
+    width: 100%;
+    padding:15px 0px;
+}
+
+.column1__h2{
+    padding: 15px 0px;
+    text-decoration: underline;
+}
+
+.pad-bottom{
+    padding: 20px;
+}
+
+.column1{
+    background-color: #48708d;
+}
+
+.column2{
+    background-color: #795650;
+}
+
+.column3{
+    background-color: #7795a1;
+}
+/*
+.maintravel__info__title{
+    padding: 20px 10px;
+    background-color: #48708d;
+}
+*/
+
+/*Contactus.html*/
+
+.maincontactus__options{
+    width: auto;
+    height: auto;
+    background-color: #2f4758;
+    margin: 20px 5%;
+    padding: 50px 20%;
+    border-radius: 20px;
+    border: 0;
+}
+
+label{
+    margin: 0px 10px;
+}
+
+.box{
+    display: block;
+    width: auto;
+    height: auto;
+    border: 1px #a8d6f7 solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.maincontactus__form__top{
+    margin:  100px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.maincontactus__form__mid{
+    margin:  100px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.maincontactus__form__bottom{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.input{
+    background-color: #2f4758;
+    color: white;
+}
+
+.label__massege{
+    vertical-align:top;
+} 
+
+#trips{
+    padding: 5px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: (rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+#message{
+    border-width: 2px;
+    border-style: inset;
+    border-color: (rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.box__input{
+    padding: 17px;
+    border: 1px #a8d6f7 solid;
+    border-radius: 20px;
+    
+}
+
+@media (max-width:425px) {
+    .maincontactus__options{
+        padding: 50px 0px;
+    }
+}
+
+/*whatweoffer.html*/
+
+.mainwhatweoffer__text{
+    border-top: 2px #48708d solid;
+}
+
+.mainwhatweoffer__text p{
+    font-size: 20px;
+}
+
+.mainwhatweoffer__bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.mainwhatweoffer__button{
+    border-radius: 20px;
+    border: 0px;
+    padding: 6px 6px 0px 6px;
+    background-color:#2f4758;
+    margin-bottom:17px;
+}
+
+.mainwhatweoffer__button h3{
+    color: white;
+}
+
+/*aboutus.html*/
+
+.mainaboutus{
+    border-top: 2px #48708d solid;
 }
