@@ -112,7 +112,7 @@ nav {
     left: 50%;
     top: 70%;
     transform: translate(-50%,-50%);
-    border-radius: 12%;
+    border-radius: 20px;
     border: 0px;
     padding: 8px 8px 3px 8px;
     background-color: #48708d;
@@ -154,7 +154,7 @@ nav {
 }
 
 .section-two__button{
-    border-radius: 12%;
+    border-radius: 20px;
     border: 0px;
     padding: 8px 8px 3px 8px;
     background-color:#2f4758 ;
@@ -195,7 +195,7 @@ nav {
     padding: 40px;
     margin: 50px 15%;
     background-color: #2f4758;
-    border-radius: 2%;
+    border-radius: 20px;
 }
 
 .section-three__box2{
@@ -208,7 +208,7 @@ nav {
     padding: 40px;
     margin: 50px 15%;
     background-color: #2f4758;
-    border-radius: 2%;
+    border-radius: 20px;
 }
 
 .section-three__img{
@@ -231,7 +231,7 @@ nav {
 }
 
 .section-three__button{
-    border-radius: 12%;
+    border-radius: 20px;
     border: 0px;
     padding: 6px 6px 0px 6px;
     background-color:#48708d;
@@ -422,6 +422,7 @@ footer {
 
 .main__text p{
     margin: 20px 20%;
+    font-size: 20px;
 }
 
 .maintravel__options{
@@ -437,18 +438,18 @@ footer {
     min-width: 100%;
 }
 
-.column1__img a:hover{
+.column__img a:hover{
     opacity: 0.6;
     transition: 0.5s;
 
 }
 
-.column1__img img{
+.column__img img{
     width: 100%;
     padding:15px 0px;
 }
 
-.column1__h2{
+.column__h2{
     padding: 15px 0px;
     text-decoration: underline;
 }
@@ -468,6 +469,15 @@ footer {
 .column3{
     background-color: #7795a1;
 }
+
+.column4{
+    background-color: #2f4758;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    align-items: center;
+}
+
 /*
 .maintravel__info__title{
     padding: 20px 10px;
@@ -481,7 +491,7 @@ footer {
     width: auto;
     height: auto;
     background-color: #2f4758;
-    margin: 20px 5%;
+    margin: 10px;
     padding: 50px 20%;
     border-radius: 20px;
     border: 0;
@@ -557,14 +567,6 @@ label{
 
 /*whatweoffer.html*/
 
-.mainwhatweoffer__text{
-    border-top: 2px #48708d solid;
-}
-
-.mainwhatweoffer__text p{
-    font-size: 20px;
-}
-
 .mainwhatweoffer__bottom{
     display: flex;
     flex-flow: row nowrap;
@@ -585,6 +587,14 @@ label{
 
 /*aboutus.html*/
 
-.mainaboutus{
-    border-top: 2px #48708d solid;
+.map{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.container__map{
+    box-shadow: 0px 0px 6px black;
+    width:1100px;
+    height: 600px;
 }
