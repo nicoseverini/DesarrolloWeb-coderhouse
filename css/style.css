@@ -301,7 +301,6 @@ footer {
 }
 
 .column__h2 {
-  padding: 15px 0px;
   text-decoration: underline;
 }
 
@@ -431,6 +430,12 @@ label {
   height: 600px;
 }
 
+.iframe__map {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 @media (max-width: 1339px) {
   .section-one h1 {
     font-size: 20px;
@@ -511,14 +516,14 @@ label {
 }
 @media (max-width: 542px) {
   .section-one {
-    padding-bottom: 150px;
-    background-color: #a9c5d1;
+    padding: 40px 0px;
   }
   .section-one h1 {
     width: 100%;
     font-size: 15px;
-    top: 65%;
+    top: 50%;
     text-shadow: 1px 1px black;
+    padding: 10px;
   }
   .section-one__button {
     top: 90%;
